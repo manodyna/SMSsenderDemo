@@ -2,10 +2,9 @@ package com.pesuio.smssenderdemo.Controllers;
 
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
-public class SMScontroller2 {
+public class SendFile {
 
     @GetMapping("/helloFromFile")
     public String helloFromFile(){
